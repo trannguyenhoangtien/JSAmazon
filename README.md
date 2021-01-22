@@ -17,3 +17,4 @@
     4. create header, main and footer
     5. style html, body
     6. style grid-container, header, main and footer
+
