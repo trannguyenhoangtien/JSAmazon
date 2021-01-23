@@ -7,7 +7,7 @@ const routes = {
     "/product/:id": ProductScreen,
 
 }
-const router = () =>{
+const router = async () =>{
     const request = parseRequestUrl();
     const parseUrl = (request.resource ? `/${request.resource}` : '/') +
     (request.id? '/:id': '') + 
@@ -16,7 +16,7 @@ const router = () =>{
 
     const main = document.getElementById("main-container");
     //main.innerHTML = HomeScreen.render();
-    main.innerHTML = screen.render();
+    main.innerHTML = await screen.render();
 }
 
 window.addEventListener('load', router);
