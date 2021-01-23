@@ -70,3 +70,16 @@
     3. fetch products from '/api/products' in render()
     4. make router() async and call await HomeScreen.render()
     5. npm install cors
+
+## Section 8: Add Webpack
+    1. cd front-end
+    2. npm install -D webpack webpack-cli webpack-dev-server
+    3. npm unistall live-server
+    4. Go to package.json, add "start": "webpack-dev-server --mode development --watch-content-base --open" in scripts.
+    5. move index.html, style.css and images to frontend folder
+    6. rename app.js to index.js
+    7. update index.html
+    8. add <script src="main.js"></script> before </body>
+    9. npm start
+    10. npm install axios
+    11. change fetch to axios in HomeScreen
