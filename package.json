@@ -1,0 +1,27 @@
+{
+  "name": "jsamazon",
+  "version": "1.0.0",
+  "description": "1. create root folder as JSAmazon\r     2. add frontend and backend folder\r     3. create src folder in frontend\r     4. create index.html with heading JSAmazon in src\r     5. run npm init in frontend folder\r     6. npm install live-server\r     7. add start command as live-server src --verbose\r     8. run npm start",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trannguyenhoangtien/JSAmazon.git"
+  },
+  "author": "Trần Nguyễn Hoàng Tiến",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trannguyenhoangtien/JSAmazon/issues"
+  },
+  "homepage": "https://github.com/trannguyenhoangtien/JSAmazon#readme",
+  "keywords": [
+    "vanilla",
+    "Javascript"
+  ],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
